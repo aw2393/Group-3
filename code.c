@@ -11,6 +11,10 @@ int main(void)
   printf("%d\n",(int)number[0]);
 
   int c, n, d; 
+  
+  /**
+  break a character array into a mantissa
+  */
  
 if(checkString(number,sizeof(number)))
 {
@@ -39,6 +43,12 @@ else
 }
  
 }
+
+
+/**
+If an invalid string is passed in your function will return false. 
+If the passed in string was valid return true.
+*/
 
 bool checkString(char number[],int size)
 {
